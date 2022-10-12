@@ -4,10 +4,13 @@
 
 
 /* Step 3: Import the Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Poppins:wght@200&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto+Condensed:wght@300&family=Ubuntu:wght@300&display=swap');
 /* End of Fonts */
 
- html, body, header, main, section {
+
+
+
+html, body, header, main, section {
     scroll-behavior: smooth;
  }
 p {
@@ -26,7 +29,7 @@ em {
 
 
 #section-1 {
-    font-family: 'abyssinica', sans-serif;
+    font-family: 'poppins', sans-serif;
     font-size: 44px;
     margin: 1em;
     line-height: 1.5em;
@@ -35,7 +38,7 @@ em {
  }
 
  #titlep {
-    font-family: 'poppins', sans-serif;
+    font-family: 'roboto condensed', sans-serif;
     font-size: 25px;
     margin: 0.5em;
     color: red;
@@ -43,7 +46,7 @@ em {
  }
 
  #section-2{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'ubuntu', sans-serif;
 
  }
 
@@ -63,7 +66,7 @@ em {
  #section-2 > div:nth-child(2) {
     background-color: white;
     color: rgba(135, 1, 1, 0.949);
-    font-family: 'roboto', sans-serif;
+    font-family: 'roboto condensed', sans-serif;
     width: 80%;
     margin: 0 auto;
  }
@@ -71,7 +74,7 @@ em {
  #section-2 > div:nth-child(1) {
     background-color: rgb(156, 77, 231);
     color: black;
-    font-family: 'Abyssinica', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     margin: 2em;
     width: 80%;
     margin: 0 auto;
@@ -80,7 +83,7 @@ em {
  #section-2 > div:nth-child(3) {
     background-color: rgb(156, 77, 231);
     color: black;
-    font-family: 'Abyssinica', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     margin: 2em;
     width: 80%;
     margin: 0 auto;
