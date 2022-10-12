@@ -6,6 +6,7 @@
 /* Step 3: Import the Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Poppins:wght@200&family=Roboto:wght@300&display=swap');
 /* End of Fonts */
+
  html, body, header, main, section {
     scroll-behavior: smooth;
  }
@@ -25,7 +26,7 @@ em {
 
 
 #section-1 {
-    font-family: 'Alkalami', sans-serif;
+    font-family: 'abyssinica', sans-serif;
     font-size: 44px;
     margin: 1em;
     line-height: 1.5em;
@@ -38,7 +39,7 @@ em {
     font-size: 25px;
     margin: 0.5em;
     color: red;
-    text: italic;
+    
  }
 
  #section-2{
